@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Site for Women's Clothing</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav id="navbar" class="sticky">
+            <div class="dropdown" class="menu">
+                <botton class="dropbtn">New Arraival</botton>
+                <div class="dropdown-content">
+                    <li><a href="newtop.html">New Tops</a></li>
+                    <li><a href="newdress.html">New Dresses</a></li>
+                    <li><a href="newbottoms.html">New Bottoms</a></li>
+                    <li><a href="newrompers.html">New Jumpsuits</a></li>
+                </div>
+           </div>
+            <div class="dropdown" class="menu">
+                <botton class="dropbtn">Clothing</botton>
+                <div class="dropdown-content">
+                    <li><a href="top.html">Tops</a></li>
+                    <li><a href="dress.html">Dresses</a></li>
+                    <li><a href="denim.html">Denim</a></li>
+                    <li><a href="loungewear.html">Loungewear</a></li>
+                </div> 
+            </div>
+            <div class="dropdown" class="menu">
+                <botton class="dropbtn">Dresses</botton>
+                <div class="dropdown-content">
+                    <li><a href="casual.html">Casual</a></li>
+                    <li><a href="floral.html">Floral</a></li>
+                    <li><a href="longsleeve.html">Long Sleeve</a></li>
+                    <li><a href="mini.html">Mini Dress</a></li>
+                </div>
+            </div>
+            <div class="dropdown" class="menu">
+                <botton class="dropbtn">Exclusive</botton>
+               <div class="dropdown-content">
+                <li><a href="festive.html">Festive Collection</a></li>
+                <li><a href="holiday.html">Holiday Collection</a></li>
+                <li><a href="nerdy.html">Nerdy Collection</a></li>
+                <li><a href="gameday.html">Game Day Collection</a></li>
+               </div>
+            </div>
+        
+            <div class="logo">
+                <img src="images/logo.png" alt="logo">
+            </div>
+            <div class="icons">
+                <ul id="details">
+                    <li><img id="profile" src="images/profile.png"><a target="_blank" href="signup.html">Profile</a>
+                    </li>
+                    <li><img id="wishlist" src="images/wishlist.png"><a target="_blank"
+                            href="wishlist.html">Wishlist</a></li>
+                    <li><img id="cart" src="images/carts.png"><a target="_blank" href="Cart.html">Cart</a></li>
+                </ul>
+            </div>
+        </nav>
+
+    </header>
+    <div class="slowFade">
+        <div class="slide">
+            <img src="images/carosel.jpg" alt="posterhere">
+        </div>
+        <div class="slide">
+            <img src="images/carosel5.jpg" alt="posterhere">
+        </div>
+        <div class="slide">
+            <img src="images/carosel6.jpg" alt="posterhere">
+        </div>
+        <div class="slide">
+            <img src="images/carosel4.jpg" alt="posterhere">
+        </div>
+    </div>
+    
+
+    <span >
+        <span class="gallary">
+            <img src="images/img9.jpg">
+            <p>Traditional Outfits</p>
+        </span>
+        <span class="gallary">
+            <img src="images/img10.jpg">
+            <p>Western Wear</p>
+        </span>
+        <span class="gallary">
+            <img src="images/img11.jpg">
+            <p>Professional looks</p>
+        </span>
+        <span class="gallary">
+            <img src="images/img12.jpg">
+            <p>Designer Stuff</p>
+        </span>
+        <span class="gallary">
+            <img src="images/img13.jpg">
+            <p>Best Seller</p>
+        </span>
+        <span class="gallary">
+            <img src="images/img14.jpg">
+            <p>New Arraival</p>
+        </span>
+        <span class="gallary">
+            <img src="images/img15.jpg">
+            <p>Trendy</p>
+        </span>
+        <span class="gallary">
+            <img src="images/img16.jpg">
+            <p>Branded</p>
+        </span>
+       
+    </span>
+    <div>
+        <div class="poster2">
+            <img src="images/poster2.png">
+            <div class="onposter1">
+                <h1>Celebrate The Joy Of Clothing </h1>
+                <h1 id="shopnow">Shop Now!</h1>
+            </div>
+
+
+        </div>
+    </div>
+    <footer>
+        <span class="footer-container">
+            <img src="images/bgcolor.png" alt="img">
+            <div class="footerinfo">
+
+                <span>
+                    <ul>
+                        <label id="label1">Get to know us</label>
+                        <li><a href="Aboutus.html">About Us</a></li>
+                        <li><a href="Newsletter.html">Newsletters</a></li>
+                    </ul>
+                </span>
+
+                <span>
+                    <ul>
+                        <label id=" label2">Connect with Us</label>
+                        <li> <a href="facebook.html">facebook</a></li>
+                        <li> <a href="twitter.html">Twitter</a></li>
+                        <li> <a href="instagram.html">Instagram</a></li>
+                    </ul>
+                </span>
+
+                <span>
+                    <ul>
+                        <label class="label3">Make Money With Us</label>
+                        <li class="label3"><a href="facebook.html">Sell on HappyHub</a></li>
+                        <li class="label3"><a href="twitter.html">Protect and Build Your Brand</a></li>
+                        <li class="label3"><a href="instagram.html">Become an Affiliate</a></li>
+                        <li class="label3"><a href="instagram.html">Advertise your Products</a></li>
+                    </ul>
+                </span>
+
+
+            </div>
+        </span>
+    </footer>
+
+    <script>
+        window.onscroll = function () { myfunction() };
+        var nav = document.getElementById(navbar);
+        var sticky = navbar.offsetTop;
+        function myFunction() {
+            if (window.pageYOffset >= sticky) {
+                navbar.classList.add("sticky")
+            } else {
+                navbar.classList.remove("sticky");
+            }
+        }
+    </script>
